@@ -1,0 +1,16 @@
+.filters-heading {
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.input-price {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.rupees {
+  margin-right: 10px;
+  font-size: 22px;
+}/*# sourceMappingURL=filters.css.map */

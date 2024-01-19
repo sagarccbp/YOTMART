@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+  font-family: Montserrat, sans-serif;
+}
+
+.carousel-image-size {
+  height: 500px;
+  width: 100%;
+  background-color: gray;
+}
+
+.carousel-content-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+  align-items: flex-start;
+
+  background-color: transparent;
+}
+
+.carousel-heading {
+  color:#ffffff;
+  font-family: Montserrat, sans-serif;
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.carousel-description {
+  color:#ffffff;
+  font-family: Nunito Sans, sans-serif;
+  font-size: 22px;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.carousel-buttons-container {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  width: 100%;
+
+  font-size: 14px;
+}
+
+.carousel-button {
+  padding: 10px 10px;
+  border-radius: 3px;
+  font-size: 16px;
+  font-weight: 700;
+  font-style: normal;
+  font-family: Nunito Sans, sans-serif;
+}
+
+.carousel-button-add-cart {
+  background-color:#ffffff;
+  border: 1px solid #0b0e8e;
+  color: #0b0e8e;
+}
+
+.carousel-button-shop {
+  background-color:#ffffff;
+  border: 1px solid #0b0e8e;
+  color:#0b0e8e;
+}
+
+@media screen and (max-width: 479px) {
+  .carousel-container {
+    max-height: 400px;
+  }
+
+  .carousel-image-size {
+    height: 400px;
+    margin: 0%;
+  }
+
+  .carousel-heading {
+    font-size: 28px;
+  }
+
+  .carousel-description {
+    font-size: 18px;
+  }
+
+  .carousel-button {
+    font-size: 12px;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .carousel-container {
+    max-height: 400px;
+  }
+
+  .carousel-image-size {
+    height: 400px;
+    margin: 0%;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 912px) {
+}
+
+@media screen and (min-width: 1441px) {
+}

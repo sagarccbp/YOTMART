@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Nunito Sans, sans-serif;
+  text-decoration: none;
+}
+
+.show-desktop-header {
+  display: block;
+}
+
+.show-mobile-header {
+  display: none;
+}
+
+@media screen and (max-width: 541px) {
+  .show-mobile-header {
+    display: block;
+  }
+  .show-desktop-header {
+    display: none;
+  }
+}/*# sourceMappingURL=home.css.map */

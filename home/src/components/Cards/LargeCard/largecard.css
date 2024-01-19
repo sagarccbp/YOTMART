@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Nunito Sans, sans-serif;
+}
+
+.large-card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  height: 400px;
+  background-color: #f5f3ed;
+}
+
+.large-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url("https://cdn.shopify.com/s/files/1/2111/1167/files/mosaic-stocksy-image-edit-3_f09efdd1-142a-4cd2-8c04-90aaf17aa883_1370x662.jpg?v=1622142332");
+  height: 400px;
+  width: 100%;
+  background-size: cover;
+  border: none;
+  border-radius: 0%;
+  padding: 30px;
+}
+
+.large-heading {
+  font-family: Montserrat, sans-serif;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 800;
+  letter-spacing: 0em;
+  color:#0b0e8e;
+}
+
+.large-description {
+  font-size: 16px;
+  font-style: normal;
+  letter-spacing: 0em;
+  color:#0b0e8e;
+}
+
+.large-count-down-container {
+  display: flex;
+  background-color:#ffffff;
+  justify-content: space-around;
+  align-items: center;
+  margin: 20px 0px;
+  width: 70%;
+}
+
+.large-card-button {
+  height: 40px;
+  margin-bottom: 10px;
+  border-radius: 3px;
+  font-size: 16px;
+  font-weight: 700;
+  font-style: normal;
+  font-family: Nunito Sans, sans-serif;
+  background-color:#ffffff;
+  border: 1px solid #9a031e;
+  color:#0b0e8e;
+  width: 100px;
+}
+
+.large-count-down {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 16px;
+}
+
+.large-count-down-heading {
+  font-size: 20px;
+  font-weight: 800;
+  color: black;
+}
+
+.large-count-down-text {
+  font-size: 10px;
+}
+
+.small-product {
+  height: 100%;
+  padding: 30px;
+}
+
+.product-item {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  padding: 14px;
+  box-shadow: 1px 2px 9px #f4aab9;
+  background-color:#ffffff;
+}
+
+.product-image {
+  height: 180px;
+  width: 180px;
+  align-self: center;
+  margin-bottom: 20px;
+}
+
+.price {
+  color: #046e82;
+  font-size: 18px;
+  font-weight: 400;
+  font-style: normal;
+  font-family: Nunito Sans, sans-serif;
+  margin-bottom: 0px;
+  padding: 0px;
+}
+
+.product-name {
+  color: #1d1d1d;
+  font-size: 12px;
+  font-weight: 400;
+  font-style: normal;
+  font-family: Nunito Sans, sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+
+.stock {
+  color: #9a031e;
+  font-size: 12px;
+  font-weight: 400;
+  font-style: normal;
+  font-family: Nunito Sans, sans-serif;
+  margin-top: 0px;
+  padding: 0px;
+}
+
+.button {
+  height: 20px;
+  width: 65px;
+  font-size: 12px;
+  font-weight: 700;
+  font-style: normal;
+  font-family: Nunito Sans, sans-serif;
+  background-color:#ffffff;
+  border: none;
+  border-radius: 0%;
+  color:#0b0e8e;
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .large-card-container {
+    flex-direction: column;
+    height: 100%;
+  }
+} /*# sourceMappingURL=largecard.css.map */

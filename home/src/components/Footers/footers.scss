@@ -1,0 +1,19 @@
+.footer-container {
+  display: flex;
+  margin-top: 20px;
+}
+
+.mobile-footer-container {
+  display: none;
+}
+
+@media screen and (max-width: 769px) {
+  .footer-container {
+    display: none;
+  }
+
+  .mobile-footer-container {
+    display: flex;
+    margin-top: 20px;
+  }
+}

@@ -1,0 +1,33 @@
+.crs-icon-style {
+  display: flex;
+  gap: 0.2rem;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 10px;
+}
+
+.crs-icon {
+  font-size: 1.5rem;
+  color: orange;
+}
+
+.crs-empty-icon {
+  font-size: 1.19rem;
+}
+
+.crs-reviews-style {
+  padding-left: 8px;
+  font-size: 16px;
+  color: #949494;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .crs-icon-style {
+    flex-direction: column;
+    align-items: center;
+  }
+  .crs-reviews-style {
+    margin-top: 18px;
+  }
+}/*# sourceMappingURL=customersstars.css.map */

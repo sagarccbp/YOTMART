@@ -1,0 +1,108 @@
+.all-categories-container {
+  background-color:#ffffff;
+  padding: 20px;
+}
+
+.all-categories-image {
+  height: auto;
+  width: 100%;
+}
+
+.all-categories-title {
+  font-size: 34;
+  margin: 1.75rem 0 0.75rem;
+  line-height: 1.3;
+  color: #1d1d1d;
+  font-family: Montserrat, sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  letter-spacing: 0em;
+}
+
+.all-categories-list {
+  list-style: none;
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  padding-left: 0;
+}
+
+.all-categories-item-container {
+  border: 1px solid rgba(128, 128, 128, 0.16);
+  box-shadow: 0 1px 4px rgba(128, 128, 128, 0.1098039216);
+  width: 32%;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.all-categories-item {
+  display: flex;
+  height: 100%;
+  padding: 1.75rem 1.25rem;
+}
+
+.all-categories-item-image {
+  width: 35%;
+  position: relative;
+}
+
+.category-image {
+  height: 100px;
+  width: 100px;
+  cursor: pointer;
+}
+
+.all-categories-subCategory-container {
+  width: 55%;
+  margin-left: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  word-break: break-word;
+}
+
+.all-categories-category-title {
+  margin: 0;
+  text-align: left;
+  color: #1d1d1d;
+  padding: 0 0 16px;
+  position: relative;
+  font-size: 18px;
+  font-family: Montserrat, sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  letter-spacing: 0em;
+  cursor: pointer;
+}
+
+.all-categories-subCategory-list {
+  padding: 0;
+  line-height: 1.5;
+  list-style: none;
+  text-align: left;
+}
+
+.all-categories-subCategory-list-item {
+  line-height: 1.5;
+  margin-bottom: 4px;
+  color: #046e82;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.all-categories-shopall {
+  font-weight: 700;
+  margin-top: 1.75rem;
+}
+
+@media screen and (max-width: 767px) {
+  .all-categories-item-container {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .all-categories-item-container {
+    width: 49%;
+  }
+}/*# sourceMappingURL=allCategories.css.map */

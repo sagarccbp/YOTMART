@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.trending-collections-heading {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 800;
+  font-family: Montserrat, sans-serif;
+  margin-top: 60px;
+  color: #0b0e8e;
+}
+.trending-collections-main-container {
+  margin: 25px;
+}
+
+.trending-collection-container {
+  height: 380px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  padding: 30px;
+}
+
+.heading {
+  color:#ffffff;
+  font-size: 30px;
+  font-weight: 900;
+  margin-top: 10px;
+
+  width: min-content;
+  font-family: Montserrat, sans-serif;
+}
+
+@media screen and (max-width: 479px) {
+  .trending-collections-main-container {
+    margin: 10px;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 766px) {
+  .trending-collections-main-container {
+    margin: 10px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 912px) {
+  .trending-collections-main-container {
+    margin: 16px;
+  }
+}
+
+@media screen and (min-width: 1441px) {
+  .trending-collections-main-container {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+}

@@ -1,0 +1,28 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Nunito Sans, sans-serif;
+}
+
+.big-card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://cdn.shopify.com/s/files/1/2111/1167/files/title-card-2_1205x1077_crop_center_89450e28-0239-4b84-8e0e-930f7c916d87_1099x1062_crop_center.jpg?v=1630520422");
+  height: 500px;
+  width: 60%;
+  background-size: cover;
+  border: none;
+  border-radius: 0%;
+  padding: 30px;
+  color:#0b0e8e;
+  padding: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .big-card-container {
+    width: 100%;
+  }
+}/*# sourceMappingURL=bigcard.css.map */

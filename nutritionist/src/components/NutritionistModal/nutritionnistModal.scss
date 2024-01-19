@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.nutritionist-modal-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+}
+.nutritionist-start-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+  border: 1px solid black;
+  padding: 20px;
+}
+.not-now-and-dont-show-again-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 100px;
+}
+.diet-title {
+  color: #9a031e;
+  font-size: 28px;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 20px;
+}
+.get-started-button {
+  width: fit-content;
+  padding: 10px 16px;
+  background-color:#ffffff;
+  color:#0b0e8e;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.not-now-button {
+  border: none;
+  background-color: transparent;
+  color: #9a031e;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+}
+.dont-show-again-container {
+  display: flex;
+  gap: 6px;
+  font-size: 14px;
+}
+.nutritionist-diet-form-container {
+  display: flex;
+}
+.forms-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.form-group {
+  margin-bottom: 25px;
+  width: 150px;
+}
+.forms-names {
+  margin-bottom: 10px;
+  text-align: center;
+}
+.form-name {
+  color: #9a031e;
+  font-size: 24px;
+  font-weight: 800;
+}
+.forms {
+  border: 1px solid #9a031e;
+
+  max-height: 250px;
+  padding: 30px;
+  border-radius: 3px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.form-group .control-label,
+.form-group > label {
+  font-weight: 600;
+  color: #34395e;
+  font-size: 12px;
+  letter-spacing: 0.5px;
+}
+
+.input-group {
+  margin-left: 25px;
+}
+.select-group {
+  margin-left: 25px;
+}
+.form-submit-button {
+  display: flex;
+  justify-content: right;
+  margin-top: 20px;
+}
+
+.nutri-submit-button {
+  background-color:#ffffff;
+  border: 1px solid #dddddd;
+  color:#0b0e8e;
+  height: 40px;
+  padding: 5px 10px 5px 10px;
+  border-radius: 3px;
+  font-size: 14px;
+  font-weight: 700;
+  font-style: normal;
+  font-family: Nunito Sans, sans-serif;
+}
+
+.input-label {
+  margin-left: 10px;
+}
+.nutri-thanks-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 250px;
+}
+.thankyou-text {
+  color: #9a031e;
+  font-size: 28px;
+  text-align: center;
+  font-weight: 600;
+}
+
+.no-records-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

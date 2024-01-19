@@ -1,0 +1,51 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "version": "1.0.0",
+    "title": "Ecommerce application demo",
+    "description": "Ecommerce app",
+    "license": {
+      "name": "MIT",
+      "url": "https://opensource.org/licenses/MIT"
+    }
+  },
+  "host": "localhost:8000",
+  "basePath": "/",
+  "tags": [
+    {
+      "name": "Users",
+      "description": "API for users in the system"
+    }
+  ],
+  "schemes": ["http",["https"]],
+  "consumes": ["application/json"],
+  "produces": ["application/json"],
+  "paths":{
+    "/user": {
+        "get": {
+            "summary": "Get all users in system",
+            "responses": {
+                "200": {
+                    "description": "OK",
+                    "schema": {
+                    "$ref": "#/definitions/Users"
+                    }
+                },
+                "500": {
+                    "error" :"Error"
+                }
+            }
+        }
+    },
+    "definitions" : {
+        "user" : {
+            "required": ["email", "mobileNumber"],
+            "alternativeMobile" : "number",
+            "fullName": "String",
+            "password":"String",
+            "role": "mongoose.Schema.Types.ObjectId",
+            "address":"array"
+        }
+    }
+  }
+}

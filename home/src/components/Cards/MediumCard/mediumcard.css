@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Nunito Sans, sans-serif;
+}
+
+.medium-card-container {
+  display: flex;
+  justify-content: flex-start;
+  margin: 20px;
+  height: 400px;
+}
+
+.medium-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url("https://cdn.shopify.com/s/files/1/2111/1167/files/22282_1_1200px-wide_3_1199x616.jpg?v=1615497117");
+  width: 70%;
+  height: 400px;
+  background-size: cover;
+  border: none;
+  border-radius: 0%;
+  padding: 30px;
+}
+
+.medium-heading {
+  font-family: Montserrat, sans-serif;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 800;
+  letter-spacing: 0em;
+  color:#0b0e8e;
+}
+
+.medium-description {
+  font-size: 16px;
+  font-style: normal;
+  letter-spacing: 0em;
+  color:#0b0e8e;
+}
+
+.medium-card-button {
+  height: 40px;
+  margin-bottom: 10px;
+  border-radius: 3px;
+  font-size: 16px;
+  font-weight: 700;
+  font-style: normal;
+  font-family: Nunito Sans, sans-serif;
+  background-color:#ffffff;
+  border: 1px solid #9a031e;
+  color:#0b0e8e;
+  width: 100px;
+}
+
+@media screen and (max-width: 768px) {
+  .medium-card {
+    width: 100%;
+    background-size: cover;
+  }
+} /*# sourceMappingURL=mediumcard.css.map */

@@ -1,0 +1,22 @@
+<div className="row">
+<div className="col-sm-6 col-lg-6 me-auto navone utility-bar__menu-link d-none d-lg-block">
+<div className="d-flex align-items-center justify-content-left">
+  <a className="text-decoration-none bar__menu-link mr-3">FAQ</a>
+  <a className="text-decoration-none bar__menu-link mr-3">Services</a>
+  <a className="text-decoration-none bar__menu-link  mr-3">Careers</a>
+  <a className="text-decoration-none bar__menu-link mr-3">Affiliate</a>
+</div>
+</div>
+<div className="col-sm-12 col-lg-6 me-auto navone utility-bar__menu-link d-none d-lg-block">
+<div className="d-flex align-items-center flex-right  justify-content-end">
+
+  <a className="bar__menu-link mr-3" href="#"><i className="fa fa-envelope fa-lg"></i></a>
+ <a className="bar__menu-link mr-3" href="#"><i className="fa fa-facebook-official fa-lg"></i></a>
+  <a className="bar__menu-link mr-3" href="#"><i className="fa fa-instagram fa-lg"></i></a>
+  <a className="bar__menu-link mr-3" href="#"><i className="fa fa-pinterest fa-lg"></i></a>
+  <a className="bar__menu-link mr-3" href="#"><i className="fa fa-snapchat fa-lg"></i></a>
+
+
+</div>
+</div>
+</div>

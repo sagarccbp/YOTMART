@@ -1,0 +1,79 @@
+.react-icons {
+  width: 35px;
+  height: 35px;
+  border-radius: 100px;
+  background-color: #ffffff;
+  padding: 10px;
+  cursor: pointer;
+  border: 1px solid #0b0e8e
+}
+
+.footer-link {
+  color:#0b0e8e;
+  margin-bottom: 10px;
+  font-size: 15px;
+  text-decoration: none;
+}
+
+.footer-para {
+  font-weight: 300;
+  font-size: 80%;
+}
+
+.footer-input {
+  height: 35px;
+  margin-right: 30px;
+  width: 230px;
+}
+
+.footer-input::placeholder {
+  font-size: 15px;
+}
+
+.footer-button {
+  width: 50%;
+  height: 45px;
+  margin-top: 20px;
+  border-radius: 3px;
+  background-color:#ffffff;
+  color:#0b0e8e;
+  font-size: 150%;
+  font-weight: 600;
+  border: 0;
+  font-size: 20px;
+}
+
+.vertical {
+  border-left: 2px solid white;
+  height: 18px;
+  margin-top: 0px;
+}
+
+.footer-container-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.footer-container-2 {
+  display: flex;
+  gap: 10px;
+}
+
+.footer-container-2 p {
+  text-align: center;
+  font-weight: 300;
+  font-size: 80%;
+}
+
+.footer-select {
+  width: 200px;
+  height: 30px;
+  border: solid 1px black;
+  border-radius: 1px;
+  margin-left: 700px;
+  font-size: 15px;
+  font-weight: 100;
+  color: rgb(119, 115, 115);
+}

@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.subCategory-list {
+  list-style: none;
+  margin-top: 10px;
+  padding-left: 0%;
+  width: 100%;
+}
+
+.subCategory-list-item {
+  font-size: 14px;
+  font-weight: 400;
+  color: #524d4d;
+  margin-bottom: 10px;
+}/*# sourceMappingURL=subCategories.css.map */

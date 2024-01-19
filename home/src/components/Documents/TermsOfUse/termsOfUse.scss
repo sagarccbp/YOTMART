@@ -1,0 +1,39 @@
+.terms-and-conditions{
+  display: flex;
+  justify-content: center;
+}
+.terms-of-use-container {
+  margin: 40px;
+}
+.terms-of-use-title {
+  font-size: 18px;
+  font-weight: 700;
+}
+.terms-of-use-title-not-bold {
+  font-size: 18px;
+}
+.terms-of-use-description {
+  font-size: 14px;
+  text-indent: 50px;
+}
+.terms-of-use-description-without-indent {
+  font-size: 14px;
+}
+.terms-of-use-description-span {
+  font-size: 14px;
+  font-weight: 700;
+}
+.terms-of-use-description-one {
+  font-size: 14px;
+}
+.terms-of-use-ordered-list {
+  font-size: 14px;
+  margin-left: 30px;
+}
+.terms-of-use-unOrdered-list {
+  font-size: 14px;
+  list-style: none;
+}
+.terms-of-use-ordered-list-item {
+  margin-bottom: 10px;
+}

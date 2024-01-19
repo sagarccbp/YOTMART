@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Nunito Sans, sans-serif;
+}
+body {
+  padding: 0;
+}
+
+.routes-container {
+  padding-top: 149px;
+}
+
+@media screen and (max-width: 820px) {
+  .routes-container {
+    padding-top: 68px;
+  }
+}

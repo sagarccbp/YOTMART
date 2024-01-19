@@ -1,0 +1,51 @@
+.not-found-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.not-found-image {
+  width: 50%;
+  max-width: 270px;
+  margin-bottom: 30px;
+}
+
+.not-found-description {
+  text-align: center;
+  width: 90%;
+  line-height: 1.5;
+}
+
+.not-found-homepage-button {
+  padding: 0.75rem 1.125rem;
+  letter-spacing: 0em;
+  color:#0b0e8e;
+  background-color:#ffffff;
+  border: 1px solid #9a031e;
+  font-style: normal;
+  font-weight: 400;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 3px;
+  line-height: 1.15;
+  font-size: 18px;
+  width: 100%;
+}
+
+.not-found-link {
+  text-decoration: none;
+}
+
+@media screen and (min-width: 768px) {
+  .not-found-description {
+    width: 60%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .not-found-image {
+    margin-bottom: 50px;
+  }
+}

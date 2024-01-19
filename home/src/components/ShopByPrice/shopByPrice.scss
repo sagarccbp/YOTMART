@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.shop-by-price-heading {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 800;
+  font-family: Montserrat, sans-serif;
+  margin-top: 60px;
+}
+
+.shop-by-price-main-container {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 30px 10px;
+  flex-wrap: wrap;
+  margin: 25px;
+}
+
+.shop-by-price {
+  border-radius: 50%;
+  text-align: center;
+  width: calc(16.66% - 8.33px);
+  aspect-ratio: 1/1;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  cursor: pointer;
+}
+
+.shop-by-price-text {
+  font-size: 18px;
+  text-align: center;
+  font-weight: 600;
+  margin-top: 15px;
+}
+
+@media screen and (max-width: 479px) {
+  .shop-by-price-main-container {
+    margin: 35px 10px;
+  }
+  .shop-by-price {
+    width: calc(50% - 5px);
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 768px) {
+  .shop-by-price-main-container {
+    margin: 35px 10px;
+  }
+  .shop-by-price {
+    width: calc(50% - 5px);
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 860px) {
+  .shop-by-price-main-container {
+    margin: 35px 16px;
+  }
+  .shop-by-price {
+    width: calc(50% - 5px);
+  }
+}
+
+@media screen and (min-width: 1441px) {
+  .shop-by-price-main-container {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+}

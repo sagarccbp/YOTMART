@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Nunito Sans, sans-serif;
+}
+
+.mobile-main-header-container {
+  width: 100%;
+}
+
+.mobile-header-search-container {
+  display: flex;
+}
+
+.mobile-header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 14px 8px;
+  transition: all 0.5s;
+}
+
+.mobile-menu-icon {
+  margin-right: 16px;
+  cursor: pointer;
+}
+
+.mobile-header-logo {
+  width: 120px;
+  max-height: 40px;
+  margin-right: 20px;
+}
+
+.mobile-menu-container {
+  padding: 0px 10px;
+}
+
+.mobile-login-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0px 10px;
+  align-items: center;
+}
+
+.mobile-menu-container {
+  max-width: 60%;
+}
+
+.mobile-help-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.mobile-help-text {
+  font-size: 14px;
+}
+
+.mobile-services-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.mobile-services-link {
+  font-size: 12px;
+  margin-bottom: 12px;
+}
+
+.mobile-social-icons {
+  margin-right: 24px;
+}/*# sourceMappingURL=mobileheader.css.map */

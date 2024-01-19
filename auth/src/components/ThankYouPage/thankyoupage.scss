@@ -1,0 +1,45 @@
+.thankyou-page-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.thankyou-heading {
+  font-size: 34px;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+
+.thankyou-page-buttons-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.thankyou-continue-shopping-button {
+  padding: 8px 16px;
+  width: 100%;
+  border-radius: 3px;
+  font-size: 14px;
+  font-weight: 700;
+  font-style: normal;
+  font-family: Nunito Sans, sans-serif;
+  background-color:#ffffff;
+  border: 1px solid #0b0e8e;
+  color:#0b0e8e;
+  margin-bottom: 20px;
+}
+
+.thankyou-myorders-button {
+  padding: 8px 16px;
+  width: 100%;
+  border-radius: 3px;
+  font-size: 14px;
+  font-weight: 700;
+  font-style: normal;
+  font-family: Nunito Sans, sans-serif;
+  background-color:#ffffff;
+  border: 1px solid #0b0e8e;
+  color:#0b0e8e;
+}

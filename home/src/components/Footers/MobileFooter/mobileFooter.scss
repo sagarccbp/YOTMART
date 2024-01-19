@@ -1,0 +1,73 @@
+.mobile-footer-main-container {
+  display: flex;
+  flex-direction: column;
+  background-color:#ffffff;
+  width: 100%;
+  color:#0b0e8e;
+  padding: 20px;
+}
+
+.mobile-footer-followus-title {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.mobile-footer-follow-us-icons-container {
+  display: flex;
+  column-gap: 20px;
+  margin-bottom: 20px;
+}
+
+.mobile-footer-react-icons {
+  width: 35px;
+  height: 35px;
+  border-radius: 100px;
+  background-color: #ffffff;
+  padding: 10px;
+  cursor: pointer;
+  border: 1px soild #0b0e8e;
+}
+
+.mobile-footer-accordion-header {
+  font-size: 20px;
+  color: #0b0e8e;
+  font-weight: 700;
+  padding: 0;
+  margin: 0;
+}
+
+.mobile-footer-list-container {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.mobile-footer-list-item {
+  font-size: 18px;
+  color: #9a031e;
+  font-weight: 500;
+  margin-bottom: 8px;
+  cursor: pointer;
+}
+
+.mobile-footer-line {
+  margin-top: 20px;
+  color:#0b0e8e;
+}
+
+.mobile-footer-bottom-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+.mobile-footer-bottom-description-container {
+  display: flex;
+
+  gap: 10px;
+}
+
+.mobile-footer-bottom-description {
+  font-size: 12px;
+}
