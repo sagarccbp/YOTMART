@@ -3,6 +3,7 @@ const { scryptSync, randomBytes, timingSafeEqual } = require("crypto");
 
 module.exports = async (req, res, next) => {
   let suppliedKey = req.headers["api_key"];
+
   if (!suppliedKey) return res.status(401).json({ message: "Un authorized" });
   const hash = await APIKEY.find({});
 

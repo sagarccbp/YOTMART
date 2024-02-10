@@ -6,7 +6,9 @@ export const API_SERVER = "https://api.yotmart.in"; //Server
 
 // export const API_KEY = "KLjpao45Mww8Awnjnwi7/RRYnq5XuankdqVUbfDvW/o="; //Local
 // export const API_KEY = "iz+HfU8a+QV3a0EKRHQ5RtdJ8soqMoHw6NoEm19RBTI="; //Server
-export const API_KEY = "tX3R0d5Sg/IJVvE9XoAhAepg0qvF0jISgzre1234wJI="; //Server
+// export const API_KEY = "tX3R0d5Sg/IJVvE9XoAhAepg0qvF0jISgzre1234wJI="; //Server
+// export const API_KEY = "Doc4r6jfFWgbAIE+PKdF+GtP60jMgL5m6VxMCCNfrwg=";
+export const API_KEY = "Ntohc6LqZMiAVa7w5Kzp1aRbPCEGqPaG2ICTcV6h1Vk=";
 export const menus = new BehaviorSubject(null);
 
 export const menuItems = (callBackFunction) => {
