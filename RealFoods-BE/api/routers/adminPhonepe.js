@@ -99,12 +99,12 @@ router.post("/phonePayCallBack", async (req, res, next) => {
     JSON.stringify(phonePayStatusResult)
   ).toString("base64");
   console.log(status, "STATUS");
-  await PhonePeModel.updateOne(
+  await PhonePeAdmin.updateOne(
     { _id: transactionId },
     { $set: { status: status, data: data } }
   );
 
-  const userId = await PhonePeModel.findOne();
+  const userId = await PhonePeAdmin.findOne();
   console.log(userId.user, "USERID");
   const userDetails = await User.findById(userId.user);
 
