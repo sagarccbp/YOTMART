@@ -6,6 +6,34 @@
   text-decoration: none;
 }
 
+.categories-row-main-container{
+  padding: 12px;
+  display: flex;
+  gap: 20px;
+  width: 100%;
+  overflow-x: scroll;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none;
+  
+}
+.categories-row-image{
+  height: 50px;
+  width: 50px;
+  margin-bottom: 6px;
+  
+}
+.categories-row{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
+.categories-row-title{
+  font-size: 10px;
+  margin-bottom: 0px;
+}
+
 .medium-small-container {
   display: flex;
   margin: 25px;

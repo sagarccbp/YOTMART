@@ -1,8 +1,8 @@
 import { BehaviorSubject } from "rxjs";
 
-// export const API_SERVER = "http://localhost:9000"; //Local
+export const API_SERVER = "http://localhost:9000"; //Local
 
-export const API_SERVER = "https://api.yotmart.in"; //Server
+// export const API_SERVER = "https://api.yotmart.in"; //Server
 
 // export const API_KEY = "KLjpao45Mww8Awnjnwi7/RRYnq5XuankdqVUbfDvW/o="; //Local
 // export const API_KEY = "iz+HfU8a+QV3a0EKRHQ5RtdJ8soqMoHw6NoEm19RBTI="; //Server

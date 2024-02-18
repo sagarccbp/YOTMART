@@ -124,6 +124,21 @@ router.post("/phonePayCallBack", async (req, res, next) => {
   console.log(token, "TOKEN");
   if (status === "PAYMENT_SUCCESS") {
     console.log("PAYMENT SUCCESS");
+    const options = {
+      method: "POST",
+      headers: {
+        accept: "application/json",
+        "Content-Type": "application/json",
+        Authorization: token,
+      },
+    };
+    const userSubscriptionDetails = await fetch(
+      `${process.env.REALFOODS_API}/user/subscription/${userDetails._id}?isSubscribed=true`,
+      options
+    );
+    const userSubscriptionDetailsResponse =
+      await userSubscriptionDetails.json();
+    console.log(userSubscriptionDetailsResponse, "SUBSCRIPTION");
     // const options = {
     //   method: "GET",
     //   headers: {
@@ -146,8 +161,8 @@ router.post("/phonePayCallBack", async (req, res, next) => {
     //     userId.address,
     //     token
     //   );
-    //   const thankyou = `${process.env.REALFOODS_URL}/#/thankyou?data=${base64Encoded}`;
-    //   return res.redirect(thankyou);
+    const thankyou = `${process.env.REALFOODS_URL}/admin?data=${base64Encoded}`;
+    return res.redirect(thankyou);
     // }
   } else {
     const paymentStatus = `${process.env.REALFOODS_URL}/#/payment-status?data=${base64Encoded}`;
@@ -161,7 +176,7 @@ router.get(
   async (req, res, next) => {
     const userId = req.userdata.userId;
     const transactionId = req.body.transactionId;
-    const phonePayResult = await PhonePeModel.findOne({
+    const phonePayResult = await PhonePeAdmin.findOne({
       _id: transactionId,
       user: userId,
     }).populate("user");
