@@ -324,6 +324,7 @@ router.delete("/staticElements/:id", isAdmin, async (req, res, next) => {
 });
 
 router.get("/", validateKey, async (req, res, next) => {
+  console.log("TESTING");
   const items = await HomeItems.find().populate("homeItems.listObject");
   return res.status(200).json(items);
 });

@@ -188,6 +188,21 @@ router.post("/softdelete/:id", async (req, res) => {
   return res.status(200).json({ message: "User Updated Successfully" });
 });
 
+router.post("/subscription/:id", async (req, res) => {
+  const userId = req.params.id;
+  if (!userId) {
+    return res.status(401).json({ error: "Invalid User Id" });
+  }
+  const isSubscribed = req.query.isSubscribed;
+  await User.findByIdAndUpdate(
+    { _id: userId },
+    { $set: { isSubscribed: isSubscribed } }
+  );
+  return res
+    .status(200)
+    .json({ message: "User Subscription Updated Successfully" });
+});
+
 router.post("/login", (req, res, next) => {
   const mobileNumber = req.body.mobileNumber;
 

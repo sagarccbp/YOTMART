@@ -103,7 +103,7 @@ router.get("/varients/:itemId", validateKey, async (req, res, next) => {
 });
 
 // Get all products of owner..
-router.get("/user/:userId", isSuperAdmin, (req, res, next) => {
+router.get("/user/:userId", validateKey, (req, res, next) => {
   const userId = req.params.userId;
   if (!userId) {
     return res.status(404).json({ message: "User id not found" });

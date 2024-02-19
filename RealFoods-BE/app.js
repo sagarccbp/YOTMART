@@ -27,6 +27,7 @@ const invoiceRoutes = require("./api/routers/invoiceRoutes");
 const secrateKeysRoutes = require("./api/routers/createSecratekey");
 const nutritionist = require("./api/routers/nutritionist");
 const phonePayRouter = require("./api/routers/Online-Payment-PhonePay");
+const phonePeAdminRouter = require("./api/routers/adminPhonepe");
 
 const cors = require("cors");
 
@@ -99,6 +100,7 @@ app.use("/invoice", invoiceRoutes);
 app.use("/secrateKeys", secrateKeysRoutes);
 app.use("/nutritionist", nutritionist);
 app.use("/phonePay", phonePayRouter);
+app.use("/adminPhonePe", phonePeAdminRouter);
 
 app.use((req, res, next) => {
   const error = new Error("Not Found");

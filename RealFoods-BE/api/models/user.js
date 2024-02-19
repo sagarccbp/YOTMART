@@ -42,6 +42,10 @@ const userSchema = mongoose.Schema({
     type: Boolean,
     default: true,
   },
+  isSubscribed: {
+    type: Boolean,
+    default: false,
+  },
   location: {
     defaultLocation: {
       lat: {
