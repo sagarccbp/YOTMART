@@ -6,7 +6,8 @@ module.exports = (req, res, next) => {
     try {
         const decoded = jwt.verify(token,process.env.EVENTUM_SECRATE_KEY,);
         req.userdata = decoded
-        if (decoded.role !== 'ADMIN') {
+        if (decoded.role !== 'ADMIN' && decoded.role !== "SUPERADMIN" &&
+      decoded.role !== "VENDOR") {
             return res.status(400).json({
                 message : 'Invalid access'
             })
