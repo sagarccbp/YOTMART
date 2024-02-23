@@ -1,6 +1,6 @@
 {
   "name": "home",
-  "home":"https://yotmart.in",
+  "home": "https://yotmart.in",
   "version": "1.0.1",
   "scripts": {
     "build": "webpack --mode production",
@@ -44,6 +44,7 @@
     "@mui/material": "^5.10.15",
     "@mui/styled-engine-sc": "^5.10.14",
     "@mui/styles": "^5.10.16",
+    "@mui/system": "^5.15.9",
     "aos": "^2.3.4",
     "axios": "^1.2.0",
     "better-react-carousel": "^1.1.1",

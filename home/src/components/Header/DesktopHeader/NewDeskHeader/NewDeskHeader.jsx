@@ -344,7 +344,9 @@ const NewDeskHeader = ({ onClickPadding }) => {
                 <button className="categories-button">BLOGS</button>
               </div>
               <div className="categories">
-                <button className="categories-button">RECIPES</button>
+                <Link className="footer-link" to="/privacy-policy">
+                  <button className="categories-button">PRIVACY POLICY</button>
+                </Link>
               </div>
               {/* {categories.map((category, index) => {
                 if (index === 8) {

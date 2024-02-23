@@ -1,11 +1,18 @@
 .privacy-policy-container {
   margin: 40px;
 }
-.privacy-policy-title {
+.privacy-policy-main-title {
+  font-size: 24px;
+  font-weight: 700;
+ text-align: center;
+}
+
+.privacy-policy-discription-title {
   font-size: 18px;
   font-weight: 700;
-  text-align: center;
+ 
 }
+
 .privacy-policy-description {
   font-size: 14px;
 }
@@ -26,4 +33,7 @@
   font-size: 14px;
   margin-left: 20px;
   list-style: lower-alpha;
+}
+.privacy-policy-link-tag{
+  color: blue;
 }

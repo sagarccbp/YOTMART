@@ -110,8 +110,7 @@ const ItemList = ({ homeItems }) => {
                 cols: 2,
               },
             ]}
-            mobileBreakpoint={480}
-          >
+            mobileBreakpoint={400}>
             {homeItems && homeItems.length > 0
               ? homeItems.map((homeItem, index) => {
                   return (
@@ -175,8 +174,7 @@ const ItemList = ({ homeItems }) => {
                             } else {
                               navigate("/notfound");
                             }
-                          }}
-                        >
+                          }}>
                           {homeItem &&
                           homeItem.listObject &&
                           homeItem.listObject.name
@@ -205,8 +203,7 @@ const ItemList = ({ homeItems }) => {
                                 navigate("/notfound");
                               }
                             }}
-                            className="button button-add-to-cart"
-                          >
+                            className="button button-add-to-cart">
                             Shop Now
                           </button>
                         </div>
