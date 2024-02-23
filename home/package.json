@@ -1,6 +1,5 @@
 {
   "name": "home",
-  "home": "https://yotmart.in",
   "version": "1.0.1",
   "scripts": {
     "build": "webpack --mode production",
